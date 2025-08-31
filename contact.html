@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact • Prathapgiri Hari</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <aside class="side">
+    <button class="side__toggle" aria-label="toggle menu">☰</button>
+    <div class="side__top">
+      <div class="avatar"></div>
+      <h1 class="name">Prathapgiri Hari</h1>
+      <p class="role">Web Developer • Programmer</p>
+    </div>
+    <nav class="nav">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="about.html">About</a>
+      <a class="nav__link" href="projects.html">Projects</a>
+      <a class="nav__link is-active" href="contact.html">Contact</a>
+    </nav>
+    <div class="side__foot">
+      <p class="muted">Warangal, Telangana</p>
+      <button id="themeBtn" class="theme-btn">🌙</button>
+    </div>
+  </aside>
+
+  <main class="pane">
+    <section class="section reveal">
+      <h2 class="section-title">Let’s talk</h2>
+      <p class="lead">For opportunities, collaborations or a quick hello — drop a message.</p>
+
+      <form class="form" onsubmit="event.preventDefault(); alert('Thanks! I’ll get back to you soon.');">
+        <input type="text" name="name" placeholder="Your name" required/>
+        <input type="email" name="email" placeholder="Email address" required/>
+        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+        <button class="btn" type="submit">Send message</button>
+      </form>
+
+      <div class="contact-list">
+        <a href="mailto:hariphari144@gmail.com">hariphari144@gmail.com</a>
+        <span>•</span>
+        <a href="tel:+919346620804">+91 93466 20804</a>
+        <span>•</span>
+        <span>India</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

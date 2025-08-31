@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prathapgiri Hari • Portfolio</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <!-- fixed sidebar (collapses on mobile) -->
+  <aside class="side">
+    <button class="side__toggle" aria-label="toggle menu">☰</button>
+
+    <div class="side__top">
+      <div class="avatar" aria-hidden="true"></div>
+      <h1 class="name">Prathapgiri Hari</h1>
+      <p class="role">Web Developer • Programmer</p>
+    </div>
+
+    <nav class="nav">
+      <a class="nav__link is-active" href="index.html">Home</a>
+      <a class="nav__link" href="about.html">About</a>
+      <a class="nav__link" href="projects.html">Projects</a>
+      <a class="nav__link" href="contact.html">Contact</a>
+    </nav>
+
+    <div class="side__foot">
+      <p class="muted">Warangal, Telangana</p>
+      <button id="themeBtn" class="theme-btn" aria-label="toggle theme">🌙</button>
+    </div>
+  </aside>
+
+  <!-- main pane -->
+  <main class="pane">
+    <section class="hero reveal">
+      <div class="hero__text">
+        <p class="eyebrow">hello there 👋</p>
+        <h2 class="hero__title">I build clean, responsive web experiences.</h2>
+        <p class="hero__subtitle">
+          Motivated student with a solid foundation in programming & web development,
+          keen on contributing to meaningful projects and learning fast.
+        </p>
+        <div class="hero__cta">
+          <a class="btn" href="projects.html">View my work</a>
+          <a class="btn btn--ghost" href="about.html">More about me</a>
+        </div>
+      </div>
+
+      <!-- decorative hero art (no external images to avoid copyright) -->
+      <div class="hero__art" aria-hidden="true">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+      </div>
+    </section>
+
+    <section class="quick reveal">
+      <h3 class="section-title">At a glance</h3>
+      <div class="quick__grid">
+        <div class="card">
+          <h4>Programming</h4>
+          <p>C, Python, Java</p>
+        </div>
+        <div class="card">
+          <h4>Web</h4>
+          <p>HTML5, CSS3, JavaScript, Responsive UI</p>
+        </div>
+        <div class="card">
+          <h4>Tools</h4>
+          <p>VS Code, Git/GitHub, Canva, MS Office</p>
+        </div>
+        <div class="card">
+          <h4>Soft Skills</h4>
+          <p>Communication, Teamwork, Time Management</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
